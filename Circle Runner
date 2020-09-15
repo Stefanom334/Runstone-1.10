@@ -1,0 +1,27 @@
+package T1;
+
+/**
+ *
+ * @author Stefano Martinez
+ */
+public class CircleRunner
+{
+ public static void main(String[] args)
+ {
+     Circle myFirstCircle = new Circle(10);
+     
+     System.out.println("My first circle has a radius of " + myFirstCircle.getRadius());
+     System.out.println("My first circle has an area of " + myFirstCircle.getArea());
+     
+     Circle mySecondCircle = new Circle(3);
+     
+     System.out.println("My second circle has a radius of " + mySecondCircle.getRadius());
+      System.out.println("My first circle has an area of " + mySecondCircle.getArea());       
+          
+      Circle myThirdCircle = new Circle();
+      
+       System.out.println("My second circle has a radius of " + myThirdCircle.getRadius());
+      System.out.println("My first circle has an area of " + myThirdCircle.getArea()); 
+      
+      
+      
