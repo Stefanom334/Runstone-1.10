@@ -1,0 +1,42 @@
+package T1;
+
+/**
+ *
+ * @author Stefano Martinez
+ */
+public class Circle 
+{
+    //attributes
+    public double radius; 
+    private final double pi = 3.14;
+    
+    //constructor 
+    public Circle(double r)
+    {
+        radius = r;
+      
+  
+    }
+  
+    public Circle() 
+    {
+        radius = 0;
+      
+        
+    }
+    
+    //methods
+    public double getRadius()
+    {
+        return pi*radius*radius;
+    }    
+
+    String getArea() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+
+    
+    
+}
+
