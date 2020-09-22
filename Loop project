@@ -1,0 +1,13 @@
+
+
+All_students = ""
+
+number_of_students = int(input("How many students are in this class? "))
+for student in range(number_of_students):
+ student_name = input("Student name: ")
+All_students = All_students + student_name + " \n"
+
+score = int(input("What score did this student get on the test: "))
+
+
+print("This student got an " + str(score) + " on the test ")
